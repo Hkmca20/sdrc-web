@@ -1,12 +1,14 @@
-// import logo from './logo.svg';
-// import './App.css';
+import logo from './images/banner1.jpeg';
+import './App.css';
 
 // import React from 'react'
 
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to SDR Cares</h1>
+        <div className="App">
+    <img src={logo} alt="logo" />
+      <h1>Welcome to SDR Cares!!</h1>
+      <h6>(Site under maintenance)</h6>
     </div>
   )
 }
