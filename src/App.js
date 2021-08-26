@@ -1,5 +1,5 @@
 // import logo from "/images/banner1.jpeg";
-import "./App.css";
+// import "./App.css";
 import Desease from "./components/body/desease";
 // import UseReducer from "./components/hooks/useReducer";
 // import UseState from "./components/hooks/useReducer";

@@ -14,7 +14,9 @@ const categoryList = [
 console.log(categoryList);
 const Desease = () => {
   const [menuData, setMenuData] = useState(Menu);
-  const [menuList, setMenuList] = useState(categoryList);
+  const [menuList
+    // , setMenuList
+  ] = useState(categoryList);
 
   const filterItem = (category) => {
 
