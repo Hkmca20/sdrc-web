@@ -1,5 +1,5 @@
-// import logo from "/images/banner1.jpeg";
-// import "./App.css";
+// import logo from "./banner1.jpeg";
+import "./App.css";
 import Desease from "./components/body/desease";
 // import UseReducer from "./components/hooks/useReducer";
 // import UseState from "./components/hooks/useReducer";
@@ -9,11 +9,22 @@ import Desease from "./components/body/desease";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
+      <header>
         {/* <img src={logo} alt="logo" /> */}
-          <h1> Welcome to SDR Cares!! </h1>
-          <Desease />
-          {/* <UseReducer/> */}
+        <h1> Welcome to SDR Cares!! </h1>
+        <p> (Site under maintenance) </p>
+        <a
+          className="App-link"
+          href="https://www.sdrcares.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          sdrcares.com
+        </a>
+      </header>
+      <Desease />
+      {/* <UseReducer/> */}
     </div>
   );
 };
