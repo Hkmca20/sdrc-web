@@ -1,10 +1,12 @@
-import React, { useCycle, useEffect } from 'react'
+import React from 'react'
 import ImageHolder from "./ImageHolder";
 import IconHolder from "./IconHolder";
 
-import { hedgehogScene, raccoonScene, squirrelScene } from "../../scenes";
+import { hedgehogScene
+    // , raccoonScene, squirrelScene 
+} from "../../scenes";
 
-const SLIDE_CHANGE_TIME_MS = 5000;
+// const SLIDE_CHANGE_TIME_MS = 5000;
 const BannerHome = () => {
     const currentScene = hedgehogScene;
     // const [currentScene, setCurrentScene] = useCycle(

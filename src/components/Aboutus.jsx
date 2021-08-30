@@ -3,7 +3,9 @@ import howToUseApp from "./API/aboutApi.js";
 import { useHistory } from 'react-router-dom';
 
 const Aboutus = () => {
-  const [aboutData, setAboutData] = useState(howToUseApp);
+  const [aboutData
+    // , setAboutData
+  ] = useState(howToUseApp);
   const history = useHistory();
   return (
     <>
@@ -22,7 +24,9 @@ const Aboutus = () => {
               <h1 className="main-heading">About us</h1>
 
               {aboutData.map((curElem) => {
-                const { id, title, info } = curElem;
+                const { id, 
+                  // title, 
+                  info } = curElem;
                 return (
                   <>
                     <div className="row our-services-info" key={id}>

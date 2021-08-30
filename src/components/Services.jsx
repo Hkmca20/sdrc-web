@@ -2,7 +2,9 @@ import React, { useState } from "react";
 import serviceapi from "./API/serviceApi.js";
 
 const Services = () => {
-  const [serviceData, setServiceData] = useState(serviceapi);
+  const [serviceData
+    // , setServiceData
+  ] = useState(serviceapi);
   return (
     <>
       <section className="service-main-container">
