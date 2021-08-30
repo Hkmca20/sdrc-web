@@ -91,10 +91,10 @@ const Contact = () => {
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
                           type="text"
-                          name="firstName*"
+                          name="firstName"
                           id=""
                           className="form-control"
-                          placeholder="First Name"
+                          placeholder="First Name*"
                           value={userData.firstName}
                           onChange={postUserData}
                         />
@@ -115,10 +115,10 @@ const Contact = () => {
                       <div className="col-12 col-lg-6 contact-input-feild">
                         <input
                           type="text"
-                          name="phone*"
+                          name="phone"
                           id=""
                           className="form-control"
-                          placeholder="Phone Number "
+                          placeholder="Phone Number *"
                           value={userData.phone}
                           onChange={postUserData}
                         />
@@ -153,10 +153,10 @@ const Contact = () => {
                       <div className="col-12 ">
                         <input
                           type="text"
-                          name="message*"
+                          name="message"
                           id=""
                           className="form-control"
-                          placeholder="Enter Your Message"
+                          placeholder="Enter Your Message *"
                           value={userData.message}
                           onChange={postUserData}
                         />

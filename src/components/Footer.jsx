@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
 
                 <div className="col-6 col-lg-3">
-                  <h2>Info</h2>
+                  <h2>Quick Links<br/>&nbsp;</h2>
                   <ul>
                     <li>
                       <a href="/about">About Us</a>
