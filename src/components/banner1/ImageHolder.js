@@ -5,15 +5,17 @@ import { motion, AnimatePresence  } from "framer-motion";
 const TRANSITION_TIME_OPACITY_S = 1;
 const TRANSITION_TIME_ROTATE_S = { MIN: 1.5, MAX: 2.5 };
 
-function getRandomNumberBetween(min, max) {
+const getRandomNumberBetween= (min, max) =>{
   return Math.floor(Math.random() * max) + min;
 }
 
-function getRandomDelay(max_s) {
+const getRandomDelay=(max_s) =>{
   return Math.random() * max_s;
 }
-function ImageHolder({ img, className }) {
-  return (    
+
+const ImageHolder = ({ img, className }) => {
+  return (
+    <>
   <AnimatePresence>
     <motion.div
     key={img.src}
@@ -35,7 +37,8 @@ function ImageHolder({ img, className }) {
       <img src={img.src} alt={img.alt} />
     </motion.div>
     </AnimatePresence>
-  );
+    </>
+  )
 }
 
 export default ImageHolder;

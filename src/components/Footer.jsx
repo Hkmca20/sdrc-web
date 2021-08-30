@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import logo from "../banner1.jpeg"
 
 const Footer = () => {
@@ -17,19 +18,23 @@ const Footer = () => {
                 </div>
 
                 <div className="col-6 col-lg-3">
-                  <h2>Quick Links<br/>&nbsp;</h2>
+                  <h2>Quick Links<br />&nbsp;</h2>
                   <ul>
-                    <li>
-                      <a href="/about">About Us</a>
+                    <li><NavLink to="/about">
+                      About Us
+                    </NavLink>
                     </li>
-                    <li>
-                      <a href="/vision">Our Vision</a>
+                    <li><NavLink to="/vision">
+                      Our Vision
+                    </NavLink>
                     </li>
-                    <li>
-                      <a href="/contact">Contact Us</a>
+                    <li><NavLink to="/contact">
+                      Contact Us
+                    </NavLink>
                     </li>
-                    <li>
-                      <a href="/termsandconditions">Privacy Policy</a>
+                    <li><NavLink to="/termsandconditions">
+                      Privacy Policy
+                    </NavLink>
                     </li>
                   </ul>
                 </div>
@@ -41,7 +46,7 @@ const Footer = () => {
                       <a
                         href="https://www.facebook.com/sdrcares/"
                         target="_self">
-                        <i class="fab fa-facebook-f fontawesome-style"></i> 
+                        <i class="fab fa-facebook-f fontawesome-style"></i>
                       </a>
                     </div>
                     <div className="col-3 mx-auto">
@@ -80,7 +85,8 @@ const Footer = () => {
                   >
                     sdrcares.com
                   </a>
-                  &nbsp;&nbsp;|&nbsp;&nbsp;<a href="/termsandconditions">Terms and conditions</a>
+                  &nbsp;&nbsp;|&nbsp;&nbsp;<NavLink to="/termsandconditions">
+                    Terms and conditions</NavLink>
                 </p>
               </div>
             </div>

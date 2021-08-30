@@ -8,7 +8,6 @@ const Menu = [
     description:
       "I love heart package realy oo yues  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
   },
-
   {
     id: 2,
     image: "images/hero1.jpg",
