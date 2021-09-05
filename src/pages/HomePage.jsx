@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import Services from "../components/Services";
 import Vision from "../components/Vision";
 import Contactus from "../components/Contactus";
-import BannerHome from "../components/banner1/Banner";
+// import BannerHome from "../components/banner1/Banner";
 import Banner2 from "../components/banner1/Banner2";
 
 const HomePage = () => {
