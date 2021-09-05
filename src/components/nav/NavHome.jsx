@@ -32,9 +32,9 @@ const NavHome = () => {
                         <li>
                             <NavLink to="/service">Services</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink to="/contact">Contact Us</NavLink>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 {/* 3rd Social Media part */}

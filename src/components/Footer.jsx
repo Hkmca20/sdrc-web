@@ -28,10 +28,10 @@ const Footer = () => {
                       Our Vision
                     </NavLink>
                     </li>
-                    <li><NavLink to="/contact">
+                    {/* <li><NavLink to="/contact">
                       Contact Us
                     </NavLink>
-                    </li>
+                    </li> */}
                     <li><NavLink to="/termsandconditions">
                       Privacy Policy
                     </NavLink>
