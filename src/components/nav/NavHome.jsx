@@ -43,7 +43,7 @@ const NavHome = () => {
                         <li>
                             {/* <a href="https://facebook.com/sdrcares" target="_self"> */}
                             {/* <FaFacebookSquare className="facebook" /> */}
-                            info@sdrcares.com +91 - 8999999999
+                            info@sdrcares.com +91 - 7838828589
                             {/* </a> */}
                         </li>
                         {/* <li><a href="https://instagram.com/sdrcares" target="_self">

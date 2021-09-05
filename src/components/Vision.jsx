@@ -18,7 +18,7 @@ const Header = () => {
           {/*  --------------- main header right side--------------  */}
           <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
               <img
-                src="./images/hero1.jpg"
+                src="./images/logo_sdr.jpeg"
                 alt="heroimg"
                 className="img-fluid"
               />

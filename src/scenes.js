@@ -1,12 +1,12 @@
 /* Icons */
-import hedgehogIcon from "./assets/images/banner1.jpeg";
+import hedgehogIcon from "./assets/images/logo_sdr.jpeg";
 import raccoonIcon from "./assets/icons/raccoon.svg";
 import squirrelIcon from "./assets/icons/squirrel.svg";
 
 /* png images */
-import hedgehog1 from "./assets/images/banner1.jpeg";
-import hedgehog2 from "./assets/images/banner1.jpeg";
-import hedgehog3 from "./assets/images/img1.jpeg";
+import hedgehog1 from "./assets/images/prod3.jpeg";
+import hedgehog2 from "./assets/images/prod4.jpeg";
+import hedgehog3 from "./assets/images/prod5.jpeg";
 import raccoon1 from "./assets/images/raccoon/raccoon1-min.png";
 import raccoon2 from "./assets/images/raccoon/raccoon2-min.png";
 import raccoon3 from "./assets/images/raccoon/raccoon3-min.png";
@@ -17,9 +17,9 @@ import squirrel3 from "./assets/images/squirrel/squirrel3-min.png";
 export const hedgehogScene = {
   icon: { src: hedgehogIcon, alt: "Hedgehog icon" },
   text: "SDRcare",
-  image1: { src: hedgehog1, alt: "Picture of hedgehog" },
-  image2: { src: hedgehog2, alt: "Picture of hedgehog" },
-  image3: { src: hedgehog3, alt: "Picture of hedgehog" },
+  image1: { src: hedgehog1, alt: "SDRCare" },
+  image2: { src: hedgehog2, alt: "SDRCare" },
+  image3: { src: hedgehog3, alt: "SDRCare" },
 };
 
 export const raccoonScene = {
