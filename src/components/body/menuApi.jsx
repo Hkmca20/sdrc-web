@@ -10,8 +10,8 @@ const Menu = [
   },
   {
     id: 2,
-    image: "images/prod1.jpeg",
-    name: "Full Body",
+    image: "images/prod7.jpeg",
+    name: "Get Health Checkup",
     category: "full",
     price: "999₹",
     description:

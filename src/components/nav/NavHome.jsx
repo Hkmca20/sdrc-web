@@ -12,9 +12,12 @@ const NavHome = () => {
                 {/* 1st Logo part */}
                 <div className="logo">
                     <NavLink to="/">
+                        {/* <div className="col-12 col-lg-20 text-center">
+                            <img src="./images/logo_header.jpeg" className="d-block h-100 w-100" alt="img" />
+                        </div> */}
                         <h2>
-                            <span>SDR</span>
-                            <span>C</span>ares
+                            <span>SDR CARES</span>
+                            {/* <span>C</span>ares */}
                         </h2>
                     </NavLink>
                 </div>
@@ -43,7 +46,9 @@ const NavHome = () => {
                         <li>
                             {/* <a href="https://facebook.com/sdrcares" target="_self"> */}
                             {/* <FaFacebookSquare className="facebook" /> */}
-                            info@sdrcares.com +91 - 7838828589
+                            <NavLink className="navbar navbar-light text-black" to="/contact">
+                                    info@sdrcares.com<br /> +91 - 7838828589
+                            </NavLink>
                             {/* </a> */}
                         </li>
                         {/* <li><a href="https://instagram.com/sdrcares" target="_self">

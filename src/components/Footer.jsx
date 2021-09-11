@@ -28,12 +28,16 @@ const Footer = () => {
                       Our Vision
                     </NavLink>
                     </li>
-                    {/* <li><NavLink to="/contact">
+                    <li><NavLink to="/contact">
                       Contact Us
                     </NavLink>
-                    </li> */}
+                    </li>
                     <li><NavLink to="/termsandconditions">
                       Privacy Policy
+                    </NavLink>
+                    </li>
+                    <li><NavLink to="/feedback">
+                      Feedback
                     </NavLink>
                     </li>
                   </ul>
@@ -86,7 +90,7 @@ const Footer = () => {
                     sdrcares.com
                   </a>
                   &nbsp;&nbsp;|&nbsp;&nbsp;<NavLink to="/termsandconditions">
-                    Terms and conditions</NavLink>
+                    Privacy Policy</NavLink>
                 </p>
               </div>
             </div>

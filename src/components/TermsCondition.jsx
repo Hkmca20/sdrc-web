@@ -7,7 +7,7 @@ const Header = () => {
         <section className="container main-hero-container">
           <div className="col-12 header-left-side d-flex justify-content-center flex-column align-items-start ">
             <h4 className="display-2">
-              Terms and Condition
+              Privacy Policy
             </h4>
             <h3>
               SDR Healthcare offers a comprehensive service in Home Sample Collection with a network of highly skilled Phlebotomists covering the whole of Delhi-NCR and adjoining Northern States.The reports are available24-Hour through Mail and WhatsApp.

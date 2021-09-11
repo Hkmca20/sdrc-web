@@ -8,6 +8,7 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
 import VisionPage from "./pages/VisionPage"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
+import FeedbackPage from "./pages/FeedbackPage"
 import ServicePage from "./pages/ServicePage"
 import ProductPage from './pages/ProductPage';
 import TCPage from './pages/TCPage';
@@ -32,6 +33,7 @@ const App = () => {
             <Route path="/about" component={AboutPage} />
             <Route path="/service" component={ServicePage} />
             <Route path="/contact" component={ContactPage} />
+            <Route path="/feedback" component={FeedbackPage} />
             <Route path="/termsandconditions" component={TCPage} />
             <Redirect to="/" />
           </Switch>

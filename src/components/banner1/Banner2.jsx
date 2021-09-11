@@ -10,42 +10,39 @@ const Banner2 = () => {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-6">
-                <img src="./images/prod1.jpeg" class="d-block w-100" alt="..." /></div>
-
-              <div class="col-md-6">
-                <img src="./images/prod2.jpeg" class="d-block w-100" alt="..." /></div>
+            <div class="row col-md-12 align-items-center justify-content-center">
+              <div class="col-md-9">
+                <img src="./images/prod7.jpeg" class="d-block w-100" alt="..." /></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
-              <h5>SdrCare</h5>
-              <p>Product</p>
+              {/* <h5>SdrCare</h5>
+              <p>Product</p> */}
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row col-md-12 align-items-center justify-content-center">
+              <div class="col-md-5">
                 <img src="./images/prod3.jpeg" class="d-block w-100" alt="..." /></div>
 
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <img src="./images/prod4.jpeg" class="d-block w-100" alt="..." /></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
-              <h5>SdrCare</h5>
-              <p>Product</p>
+              {/* <h5>SdrCare</h5>
+              <p>Product</p> */}
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-6">
+            <div class="row col-md-12 align-items-center justify-content-center">
+              <div class="col-md-5">
                 <img src="./images/prod5.jpeg" class="d-block w-100" alt="..." /></div>
 
-              <div class="col-md-6">
+              <div class="col-md-5">
                 <img src="./images/prod6.jpeg" class="d-block w-100" alt="..." /></div>
             </div>
             <div class="carousel-caption d-none d-md-block">
-              <h5>SdrCare</h5>
-              <p>Product</p>
+              {/* <h5>SdrCare</h5>
+              <p>Product</p> */}
             </div>
           </div>
         </div>

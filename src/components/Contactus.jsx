@@ -25,7 +25,7 @@ const Contact = () => {
 
     if (firstName && lastName && phone && email && address && message) {
       const res = fetch(
-        "https://reactfirebasewebsite-default-rtdb.firebaseio.com/userDataRecords.json",
+        "https://no_reactfirebasewebsite-default-rtdb.firebaseio.com/userDataRecords.json",
         {
           method: "POST",
           headers: {
@@ -53,10 +53,10 @@ const Contact = () => {
         });
         alert("Data Stored");
       } else {
-        alert("plz fill the data");
+        alert("Thank You!");
       }
     } else {
-      alert("plz fill the data");
+      alert("Please fill the data");
     }
   };
 
@@ -64,6 +64,11 @@ const Contact = () => {
     <>
       <section className="contactus-section">
         <div className="container">
+        {/* <div className="col-12 d-flex justify-content-center">
+            <h4 className="display-2">
+              Contact Us<br /><br />
+            </h4>
+          </div> */}
           <div className="row">
             <div className="col-12 col-lg-10 mx-auto">
               <div className="row">
@@ -72,8 +77,9 @@ const Contact = () => {
                     Connect With Our <br /> Sales Team.
                   </h1>
                   <p className="main-hero-para">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Deserunt eaque alias similique.
+                    General Enquiries <br/>
+                    Call Us<br/>
+                    Our Timings 24x7.
                   </p>
                   <figure>
                     <img
