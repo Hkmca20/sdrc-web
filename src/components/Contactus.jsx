@@ -78,8 +78,10 @@ const Contact = () => {
                   </h1>
                   <p className="main-hero-para">
                     General Enquiries <br/>
-                    Call Us<br/>
-                    Our Timings 24x7.
+                    Call Us - 7838828589<br/>
+                    Our Timings 24x7.<br/><br/>
+                    Reach Us -<br/>
+                    Shop No 5 Phase 5, Opposite Govt. School, Main Market Road, Arjan Garh South Delhi - 110047
                   </p>
                   <figure>
                     <img
